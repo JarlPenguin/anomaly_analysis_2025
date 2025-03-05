@@ -113,7 +113,7 @@ class Dbf3(Dbf5):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: dbf3_convert_to_csv.py <input.dbf>")
+        print("Usage: python dbf3_convert_to_csv.py <input.dbf>")
         sys.exit(1)
 
     input_name = sys.argv[1]
